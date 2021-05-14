@@ -174,6 +174,65 @@ li {
     width: 100%;
     height:625px;
   }
+
+  .abt-img{
+    width: 326px;
+    height: 400px;
+  }
+
+   @media screen and (min-width: 360px) {
+  .abt-img {
+     width: 450px;
+    height: 400px;
+  }
+}
+
+
+  .service-contain{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .test{
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../image/pexel-services.jpg") center/cover no-repeat fixed;
+    color:white;
+    height:450px;
+  
+  }
+
+  .ser{
+    padding-top: 200px;
+  }
+
+  @media screen and (min-width: 360px) {
+  .test {
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../image/pexel-services.jpg") center/cover no-repeat fixed;
+    color:white;
+    height:1500px;
+  }
+}
+
+  
+ 
+
+
+/*  .car-img img{
+    width: 100%;
+    height:625px;
+  }
+
+  
+
+
+@media screen and (min-width: 1000px) {
+  .car-img img  {
+    width: 100%;
+    height:625px;
+  }
+}*/
+
   .txt{
     font-family: sans-serif;
     font-size: 28px;
