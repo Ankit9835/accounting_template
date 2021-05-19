@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Secure Accounting</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+  .signUp{
+    border:  rgb(25, 0, 255);
+    padding: 30px 0px 13px 81px;
+    margin: 24px 9px -8px 433px;
+    margin-left: 489px;
+    background-color: rgba(0, 183, 255, 0.644);
+    width: 550px;
+    box-sizing: border-box;
+  }
+  .register{
+    margin-left: 65px;
+  }
+  .form-control{
+    margin-left:40px;
+  }
+  #contact .php-email-form input {
+    padding: 19px 16px;
+    border-radius: 20px;
+}
+.button1{
+  margin-left:40px;
+
+}
+.a{
+  background: #007bff;
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+#contact .php-email-form button[type="submit"] {
+    background: #007bff;
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+.bgImage{
+  background:url('image/1.jpg');
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 800;
+}
+</style>
+</head>
+<body>
+<div class="fixed-top">
+  <header class="topbar">
+      <div class="container">
+        <div class="row">
+          <!-- social icon-->
+          <div class="col-sm-12">
+            <ul class="social-network">
+              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+              <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+    <div class="container">
+      <a class="navbar-brand" rel="nofollow" target="_blank" href="" style="text-transform: uppercase;"> <img src="image/account_logo.jpg "style="width: 137px; height:68px; border-radius:6%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+        <ul class="navbar-nav ml-auto ">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+         <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfilio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li> &nbsp;
+           <li class="nav-item">
+            <button class="btn btn-warning" style="border-radius: 10px;"> Sign In </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="bgImage">
+<section id="contact">
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="section-header">
+        <h3 class="txt2">Sign Up</h3>
+      </div>
+      <div class="row">
+          <div class="signUp">
+            <div class="form">
+              <form action="" method="post" role="form" class="php-email-form ">
+              <!--   {{-- <div class="form-row"> --}} -->
+                  <h3 class="register">Register Here!</h3>
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required />
+                      <div class="validate"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                      <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Mobile No." data-rule="phone" data-msg="Please enter a valid Mobile No." required />
+                      <div class="validate"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                      <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password" data-rule="password" data-msg="Please enter a valid password" required />
+                      <div class="validate"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                      <input type="password" class="form-control" name="password" id="password" placeholder="Confirm Password" data-rule="password" data-msg="Please enter a valid password" required />
+                      <div class="validate"></div>
+                  </div>
+               <!--  {{-- </div> --}} -->
+                <div class="button1"><button type="submit">Register</button>&nbsp;
+                  <!-- {{-- <button type="submit">Login</button> --}} -->
+                  <small>Already Registered?</small>&nbsp;<a href="#" class="a">Login Here!</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>NewBiz</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by <a href="https://www.korawanindiaitsolution.com">Korawan</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+</body>
+</html>
